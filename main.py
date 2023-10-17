@@ -18,7 +18,7 @@ plt.show()
 
 #creating test case
 baseCase = np.array(temp)[:, None]
-data = np.apply_along_axis(np.sin, 0, np.hstack((baseCase, baseCase, baseCase)) * np.array([5, 7, 12])).sum(axis=1)
+data = np.sin(baseCase * np.array([5, 7, 12])).sum(axis=1)
 plt.plot(baseCase.squeeze(), data)
 plt.show()
 
