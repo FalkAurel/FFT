@@ -13,7 +13,8 @@ The code includes the following functions:
 
 ## Usage
 
-The main function to use is `fft(data)`, which takes a list of real numbers as input and returns their FFT as a list of complex numbers. The input list length should be a power of two. If it's not, you can use the `padding(data)` function to pad your data with zeros until its length is a power of two.
+The main function to use is `fft(data)`, which takes a list of real numbers as input and returns their FFT as a list of complex numbers. The input list length should be a power of two. If it's not, you can use the `padding(data)` function to pad your data with zeros until its length is a power of two. By applying the FFT, you can extract the frequencies which make up the signal.
+![ima](https://github.com/FalkAurel/FFT/assets/137809006/6fba60b0-496e-4f86-a746-bd4b6645f09e)
 
 ## Note
 
