@@ -7,7 +7,7 @@ def creatingEvenlySpacedNumbers(start, end, nPoints):
 def exp(X, *, precision=100):
     """
     Returns the exp function by approximating it with a taylor series. Where the formula is
-    sum(1 + x**n / n!) where n goes to infinte.
+    sum(1 + x**n / n!) where n goes to infinity.
     """
     def factorial(n):
         """
