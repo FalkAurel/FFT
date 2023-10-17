@@ -25,7 +25,7 @@ def padding(data):
     nSamples = len(data)
     if  nSamples & (nSamples - 1) == 0 and nSamples != 0:
         return data
-    nextPowerOfTwo = 1 << (len(bin(nSamples)) - 1)
+    nextPowerOfTwo = 1 << (len(bin(nSamples)) - 2)
     difference = nextPowerOfTwo - nSamples
     return data + [0 for _ in range(difference)]
 
